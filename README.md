@@ -18,4 +18,4 @@ To read and use inputs in a script, do the following:
 - Define a reference to the `Input System Action Asset`: `[SerializeField] private InputActionAsset input;`, and drag and drop inside the editor.
 - Define the action you wish to read: `InputAction inputAction = input.FindAction("ACTION_NAME");`.
 - Enable said action: `inputAction.Enable();`.
-- You can now access inputs from the `inputAction` variable. The Unity Input System features many different bindings, and you will need to reference the [official documentation](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.8/manual/index.html). Example: `Vector2 movement = inputAction.ReadValue<Vector2>()`.
+- You can now access inputs from the `inputAction` variable. The Unity Input System features many different bindings, and you will need to reference the [official documentation](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.17/manual/index.html). Example: `Vector2 movement = inputAction.ReadValue<Vector2>()`.
