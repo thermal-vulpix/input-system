@@ -11,7 +11,7 @@ You will get the following files:
 - `Input System C# Script` (generated from the `Input System Action Asset` file)
 - `Input System Prefab`
 
-# Recommended structure
+# Recommended workflow
 Without the existence of `Input System Prefab`, we can not read inputs, so we must drag and drop it inside the scene.
 
 Couple the GameObjects with the respective `Input System Prefab` they wish to read from by placing them in the same scene, which you can then load/unload at once.
