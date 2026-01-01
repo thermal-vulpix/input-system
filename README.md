@@ -1,4 +1,4 @@
-Part of the thermal-vulpix systems collection.
+Guide for personal use so I remember how to use the Unity 6 Input System. It is practically just an explanation for the files already included upon creating a brand new fresh project in Unity 6, and to help me get started faster with projects. Also, I love writing guides, so deal with it bucko.
 
 # Before you use
 Read the [official Unity documentation](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.17/manual/index.html) for the new Input System.
