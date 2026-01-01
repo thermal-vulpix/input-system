@@ -1,5 +1,8 @@
 Part of the thermal-vulpix systems collection.
 
+# Before you use
+Read the [official Unity documentation](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.17/manual/index.html) for the new Input System.
+
 # How to install
 Clone the repository, drag and drop `input-system.unitypackage` inside your Unity 6 Project, and extract it.
 
