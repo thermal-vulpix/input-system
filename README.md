@@ -1,4 +1,6 @@
-Guide for personal use so I remember how to use the Unity 6 Input System. It is practically just an explanation for the files already included upon creating a brand new fresh project in Unity 6, and to help me get started faster with projects. Also, I love writing guides, so I wrote this in a way that would make sense to more people than just me.
+Guide for personal use so I remember how to use the Unity 6 Input System. It is practically just an explanation for the files already included upon creating a brand new fresh project in Unity 6, and to help me get started faster with projects.
+
+Also, I love writing guides, so I wrote this in a way that would make sense to more people than just me.
 
 # Before you use
 Read the [official Unity documentation](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.17/manual/index.html) for the Input System.
@@ -18,7 +20,7 @@ Couple the GameObjects with the respective `Input System Prefab` they wish to re
 
 # How to use
 To read and use inputs in a script, do the following:
-- Define a reference to the `Input System Action Asset`: `[SerializeField] private InputActionAsset input;`, and drag and drop inside the editor.
+- Define a reference to the `Input System Action Asset`: `[SerializeField] private InputActionAsset input;`, and drag and drop it inside the editor.
 - Define the action you wish to read: `InputAction inputAction = input.FindAction("ACTION_NAME");`.
 - Enable said action: `inputAction.Enable();`.
 - You can now access inputs from the `inputAction` variable. The Unity Input System features many different bindings, and you will need to reference the [official documentation](https://docs.unity3d.com/Packages/com.unity.inputsystem@1.17/manual/index.html). Example: `Vector2 movement = inputAction.ReadValue<Vector2>()`.
